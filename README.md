@@ -148,3 +148,12 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
  1. 通过 this.$route.path 判断当前页面的路由路径，当它等于 '/home' 时，返回键隐藏
  2. 页面刷新进入，也要进行判断，是否需要隐藏返回键
  
+## 填坑
+  1.当我 npm run build 时候，出现报错
+  ```
+  Unhandled promise rejection (rejection id: 3): postcss-svgo: Error in parsing SVG: Unquoted at
+  tribute value
+  ``` 
+  报错原因就是 压缩和抽离CSS的插件中只允许 SVG 使用【双引号】
+    
+  我引入外部css文件中有svg引号问题，我这里引入了 mui.css ，所以我把 mui.css 里的 svg 的单引号改成双引号再重新 build 就可以了

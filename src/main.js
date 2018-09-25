@@ -29,7 +29,7 @@ Vue.use(VueResource)
 Vue.http.options.root = 'https://gank.io/api/'
 
 // 导入 MUI 的样式
-import './lib/mui/css/mui.min.css'
+import './lib/mui/css/mui.css'
 import './lib/mui/css/icons-extra.css'
 
 import VuePreview from 'vue-preview'
