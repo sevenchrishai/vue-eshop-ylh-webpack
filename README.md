@@ -157,3 +157,12 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
   报错原因就是 压缩和抽离CSS的插件中只允许 SVG 使用【双引号】
     
   我引入外部css文件中有svg引号问题，我这里引入了 mui.css ，所以我把 mui.css 里的 svg 的单引号改成双引号再重新 build 就可以了
+  
+  2. 在 github 的 GitHub Pages 预览问题
+  
+  原因是路径问题，解决：修改 config>index.js
+  ```
+  assetsPublicPath: './',
+  ```
+  
+  
