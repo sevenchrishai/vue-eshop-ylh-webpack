@@ -20,6 +20,8 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+## 项目预览地址：https://sevenchrishai.github.io/vue-eshop-ylh-webpack/dist/
+
 ## 所有API来自干货集中营（https://gank.io/api）
 
 ## 制作首页 APP 组件
@@ -164,5 +166,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
   ```
   assetsPublicPath: './',
   ```
+  3. GitHub Pages预览时，首页静态icon资源和tabbar mui-icon 无法加载，这坑，未填 - -！
   
   
