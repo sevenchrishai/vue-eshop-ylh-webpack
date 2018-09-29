@@ -22,7 +22,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## [项目预览地址](https://sevenchrishai.github.io/vue-eshop-ylh-webpack/dist/)
 
-## 所有API来自干货集中营（https://gank.io/api）
+## 所有API来自[干货集中营](https://gank.io/api)
 
 ## 制作首页 APP 组件
  1. Header，使用的是 Mint-UI 中的 Header 组件
