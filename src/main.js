@@ -31,6 +31,8 @@ Vue.http.options.root = 'https://gank.io/api/'
 // 导入 MUI 的样式
 import './lib/mui/css/mui.css'
 import './lib/mui/css/icons-extra.css'
+import './lib/mui/fonts/mui.ttf'
+import './lib/mui/fonts/mui-icons-extra.ttf'
 
 import VuePreview from 'vue-preview'
 // defalut install
